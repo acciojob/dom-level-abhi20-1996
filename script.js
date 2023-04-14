@@ -1,3 +1,7 @@
 //your JS code here. If required.
-let n=document.ElementById("level").innerText;
-alert(n);
+function Alert() {
+	let n=document.ElementById("level").innerHTML;
+         n=alert(n);
+}
+let myBtn=document.ElementById("btn");
+myBtn.addEventListener("click", Alert);
