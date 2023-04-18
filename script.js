@@ -1,7 +1,4 @@
 //your JS code here. If required.
 function Alert() {
-	let n=document.ElementById("level").innerHTML;
-         n=alert(n);
+	alert("The level of the element is:"+ 5);
 }
-let myBtn=document.ElementById("btn");
-myBtn.addEventListener("click", Alert);
